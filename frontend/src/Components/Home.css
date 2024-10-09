@@ -120,8 +120,68 @@ a{
     background-color: rgba(0, 0, 0, 0.8); 
 }
 
-  
 
 
-/* ----------------- Contact Us ------------------ */
 
+
+/* ------------- Footer -------------- */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #30cd3f;
+    padding: 30px 30px 30px 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left:5%;
+}
+
+.socialmedia{
+    display:flex ;
+    flex-direction:row ;
+    justify-content: space-evenly;
+
+}
+.footer .footerleft .socialmedia a{
+    text-decoration: none;
+}
+.icon{
+    font-size: x-large;
+}
+
+.footermiddle{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding-top:20px;
+    padding-left: 5%;
+}
+
+.footer .footermiddle .middleleft ul li a{
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Ensures text is aligned left */
+    display: block; /* Makes the link fill the full width of the list item */
+    padding: 5px 0; 
+} 
+
+.middleright{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.middleright div{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 500px;
+    padding-left: 32px;
+}

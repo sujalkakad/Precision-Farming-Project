@@ -2,12 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 import Header1 from "./Components/Header1.js"
 import Slide from "./Components/Slide.js"
 import Contact from "./Components/Contact.js"
-
+import Footer from "./Components/Footer.js"
 
 
 function App() {
@@ -17,7 +20,7 @@ function App() {
       <Header1 />
       <Slide />
       <Contact />
-
+      <Footer />
       {/* <header> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>

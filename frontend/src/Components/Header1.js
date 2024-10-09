@@ -48,7 +48,7 @@ function Header1() {
             </li>
 
             <li>
-              <a href="./Contact.js"  >Contact Us</a>
+              <a href="./Contact.js" >Contact Us</a>
             </li>
 
             <div className='Buttons'>
