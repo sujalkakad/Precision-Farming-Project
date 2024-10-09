@@ -1,26 +1,53 @@
-.title{
+.title {
     background-color: green;
     width: 100%;
-    /* margin-top: -30px; */
-    padding-top:0px;;
+    padding-top: 0;
     padding-bottom: 10px;
+    text-align: center; /* Center the title text */
 }
 
-.Main{
+.Main {
     display: flex;
-    margin-left :40%;;
-    margin: auto;
-    
-}
-.ContactForm{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* width: 100%; */
 }
 
-label{
-    margin: auto;
+.ContactForm {
+    margin-top: 15px;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid black;
+    border-radius: 2%;
+    gap: 10px; /* Space between labels and inputs */
+    width: 30%; 
 }
-input{
-    margin: auto;
+
+label {
+    text-align: right; /* Right-align labels */
+    padding-right: 10px; /* Space between label and input */
+}
+
+input,
+textarea {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    max-width: 100%; /* Full width */
+    width: 100%;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    max-width: 100%; /* Full width */
+    grid-column: span 2; /* Span the textarea across both columns */
+}
+
+.btn {
+    grid-column: span 2; /* Center the button across both columns */
+    margin-top: 10px; /* Space above the button */
 }

@@ -51,19 +51,16 @@ function Header1() {
               <a href="./Contact.js"  >Contact Us</a>
             </li>
 
-            <li>
-              <a href='Sign_up.js' type="button" className="btn btn-primary">Sign Up</a>
-            </li>
-
-            <li>
-              <a href='Sign_in.js' type="button" className="btn btn-primary"> Sign In </a>
-                            
+            <div className='Buttons'>
+          
+                <a href='Sign_up.js' className="btn btn-primary">Sign Up</a>
+            
+                <a href='Sign_in.js'  className="btn btn-primary"> Sign In </a>
+           
+            </div>
 
               {/* Light Button */}
               {/* <button type="button" className="btn btn-light">Light Button</button> */}
-
-            </li>
-
             
 
           </nav>
