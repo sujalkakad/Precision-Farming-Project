@@ -1,0 +1,26 @@
+.title{
+    background-color: green;
+    width: 100%;
+    /* margin-top: -30px; */
+    padding-top:0px;;
+    padding-bottom: 10px;
+}
+
+.Main{
+    display: flex;
+    margin-left :40%;;
+    margin: auto;
+    
+}
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+label{
+    margin: auto;
+}
+input{
+    margin: auto;
+}
