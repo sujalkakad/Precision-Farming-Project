@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWheatAwn } from '@fortawesome/free-solid-svg-icons';
 import "./Home.css"
 
 window.onscroll = function(){
@@ -29,6 +31,7 @@ function Header1() {
       <div>
           
           <nav>
+            <a href='Header1.js'><FontAwesomeIcon icon={faWheatAwn} className='logoicon'/></a>
             <h1 >Precision Farming</h1>
 
             <li>

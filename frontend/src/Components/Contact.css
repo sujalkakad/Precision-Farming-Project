@@ -1,5 +1,10 @@
+.contactsection{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/402/878/large_2x/beautiful-wooden-floor-and-green-rice-field-nature-background-agriculture-product-standing-showcase-background-free-photo.jpg);
+}
+
+
 .title {
-    background-color:rgb(66, 157, 57);
+    
     width: 100%;
     padding-top: 0;
     padding-bottom: 10px;
@@ -12,8 +17,8 @@
     justify-content: center;
     /* width: 100%; */
     /* background-image: url(https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_1280.jpg); */
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201101/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg);
-    background-image: url(https://static.vecteezy.com/system/resources/previews/013/402/878/large_2x/beautiful-wooden-floor-and-green-rice-field-nature-background-agriculture-product-standing-showcase-background-free-photo.jpg);
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201101/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/402/878/large_2x/beautiful-wooden-floor-and-green-rice-field-nature-background-agriculture-product-standing-showcase-background-free-photo.jpg); */
 }
 
 .ContactForm {
@@ -37,8 +42,8 @@ textarea {
     padding: 0.25em 0.5em;
     margin-top: 6px;
     margin-bottom: 5px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.5px solid black;
     border-radius: 4px;
     max-width: 100%; /* Full width */
     width: 100%;

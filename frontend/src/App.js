@@ -12,7 +12,7 @@ import Slide from "./Components/Slide.js"
 import Contact from "./Components/Contact.js"
 import Footer from "./Components/Footer.js"
 import About from "./Components/About.js"
-import Introduction from "./Components/Introduction.js"
+import HowItWorks from "./Components/HowItWorks.js"
 import Testimonial from "./Components/Testimonial.js"
 
 
@@ -22,7 +22,7 @@ function App() {
 
       <Header1 />
       <Slide />
-      <Introduction />
+      <HowItWorks  />
       <Contact />
       <About />
       <Testimonial />

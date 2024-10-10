@@ -15,7 +15,7 @@ function About() {
                             <div>
                                 <h5>Crop<br/>Recommendation</h5>
                                 <p>We Predict the most<br/>suitable crops for given<br/>farm location on aggregated<br/>environmental data. 
-                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' />
+                                    <a href=''><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' /></a>
                                 </p>
                                 
                             </div>
@@ -29,12 +29,12 @@ function About() {
                             <div>
                                 <h5>Crop<br/>Disease Prediction</h5>
                                 <p>We Predict Crop<br/>Disease Prediction using<br/>current weather, soil moisture <br/>and crop condition. 
-                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' />
+                                    <a href=''><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' /></a>
                                 </p>
                                 
                             </div>
                             <div className='imageDiv'>
-                                <img className='aboutimg' src="https://user-images.githubusercontent.com/110320717/205117082-e1333270-cba7-4c1e-a533-620b29e86ac4.jpg" />
+                                <img className='aboutimg' src="https://i0.wp.com/geopard.tech/wp-content/uploads/2022/06/63.2-min.jpg?resize=1024%2C555&ssl=1" />
                             </div>
                     </div>  
 
@@ -44,12 +44,12 @@ function About() {
                             <div>
                                 <h5>Comparative<br/>Analysis</h5>
                                 <p>Compare performance of system with existing farming practices in terms of yield <br/>optimization and fertilizers<br/>usage efficiency 
-                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' />
+                                    <a href=''><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' /></a>
                                 </p>
                                 
                             </div>
                             <div className='imageDiv'>
-                                <img className='aboutimg' src="https://user-images.githubusercontent.com/110320717/205117082-e1333270-cba7-4c1e-a533-620b29e86ac4.jpg" />
+                                <img className='aboutimg' src="https://digitaltrendsreport.com/wp-content/uploads/2023/04/AdobeStock_565901991.jpg" />
                             </div>
                     </div> 
 
@@ -60,7 +60,7 @@ function About() {
                             <div>
                                 <h5>Crop<br/>Recommendation</h5>
                                 <p>We Predict the most<br/>suitable crops for given<br/>farm location on aggregated<br/>environmental data. 
-                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' />
+                                    <a href=''><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrowicon' /></a>
                                 </p>
                                 
                             </div>

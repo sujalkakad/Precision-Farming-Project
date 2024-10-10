@@ -2,6 +2,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+.logoicon{
+    font-size: 30px;
+    padding: 35px 0px 0px 10px;
+}
+
 nav{
     position: fixed;
     display : inline-flex;
@@ -32,7 +37,7 @@ nav{
 
 h1{
     margin-top: 2%;
-    /* margin-left: 30px; */
+    margin-left: -10px;
     /* color:rgb(57, 92, 4); */
     color: blaCK;
     /* margin-bottom: 10%; */
@@ -121,6 +126,73 @@ a{
 }
 
 
+
+/* ------------- how it works --------------- */
+
+
+
+
+.howitworks{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220707/pngtree-decent-yellow-color-background-image_1416424.jpg);
+    padding: 5px 25px 5px 5px;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.intro div{
+    background-color:rgba(255, 255, 255, 0.008);
+}
+
+.transparent-image {
+    width: 420px;
+    height: 425px;
+    /* opacity: 0.9; */
+    margin-left: 5%;
+ 
+}
+.process{
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: left;
+    text-align: left;
+    margin-left: 5%;
+}
+.process h4{
+    margin-left: 35%;
+}
+
+h6{
+    text-decoration: underline;
+}
+
+.bulleted {
+    list-style-type: disc; /* Options: disc, circle, square */
+    padding-left: 20px;
+  }
+  
+  .bulleted > li {
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .bulleted > li::before {
+    content: "• ";
+    position: absolute;
+    left: -1em;
+  }
+  
+
+
+
+
+
+  
 /* ------------- About Us ------------- */
 
 .aboutus{
@@ -152,7 +224,7 @@ a{
     justify-content: flex-start;
     text-align: left;
     border: 1px solid bwhitelack;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 10px 20px 5px 20px;  
     transform: rotate(-3deg); 
     margin-left: -70%;
@@ -175,7 +247,7 @@ a{
     margin-left: 25%;
     transform: rotate(4deg);
     background-color: rgb(184, 238, 74);
-    border-radius: 5px;
+    border-radius: 7px;
     margin-bottom: 20px;
 }
 
@@ -187,7 +259,7 @@ a{
     margin-left: 25%;
     transform: rotate(-1deg);
     background-color: rgb(167, 196, 223);
-    border-radius: 5px;
+    border-radius: 7px;
     margin-bottom: -10px;
 }
 
@@ -199,9 +271,25 @@ a{
     margin-left: 25%;
     transform: rotate(6deg);
     background-color: white;
-    border-radius: 5px;
-
+    border-radius: 7px;
 }
+
+.boxinner1, .BoxInner22, .boxInner33,  .BOXInner4{
+    transition: transform 0.1s ease-in-out;
+}
+.boxinner1:hover{
+    transform:scale(1.05);
+}
+.BoxInner22:hover{
+    transform:scale(1.05);
+}
+.boxInner33:hover{
+    transform:scale(1.05);
+}
+.BOXInner4:hover{
+    transform:scale(1.05);
+}
+
 .arrowicon{
     padding-left: 190px;
     margin-top: -2px;

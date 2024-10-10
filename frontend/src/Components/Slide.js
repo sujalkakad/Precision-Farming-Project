@@ -14,8 +14,7 @@ function Slide() {
       "https://wallpapercave.com/wp/wp6592172.jpg",
       "https://static.theprint.in/wp-content/uploads/2018/05/1_Agriculture_and_rural_farms_of_India-e1548392979838.jpg",
       "https://c.pxhere.com/photos/af/b0/vineyard_wine_grape_niagara-669102.jpg!d",
-      "http://ugaurbanag.com/wp-content/uploads/2015/09/803314819_7b2d5d76bc_b.jpg",
-      
+      "http://ugaurbanag.com/wp-content/uploads/2015/09/803314819_7b2d5d76bc_b.jpg",      
       "https://discuss.farmnest.com/uploads/default/original/2X/5/5821a23f68ba083816831d5171794eb21a5af276.jpg",
       "https://c.pxhere.com/photos/1f/f5/apple_tree_garden_green_fruit_season_summer_branch-688776.jpg!d"
     ];
