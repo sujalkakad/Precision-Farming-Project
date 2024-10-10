@@ -36,6 +36,10 @@ function Header1() {
             </li>
 
             <li>
+              <a href="./Getstarted.js" >Get Started</a>
+            </li>
+
+            <li>
               <a href='History.js' >View History</a>
             </li>
 

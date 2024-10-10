@@ -11,6 +11,9 @@ import Header1 from "./Components/Header1.js"
 import Slide from "./Components/Slide.js"
 import Contact from "./Components/Contact.js"
 import Footer from "./Components/Footer.js"
+import About from "./Components/About.js"
+import Introduction from "./Components/Introduction.js"
+import Testimonial from "./Components/Testimonial.js"
 
 
 function App() {
@@ -19,8 +22,12 @@ function App() {
 
       <Header1 />
       <Slide />
+      <Introduction />
       <Contact />
+      <About />
+      <Testimonial />
       <Footer />
+
       {/* <header> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
